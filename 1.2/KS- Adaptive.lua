@@ -1,7 +1,6 @@
 --------------------------------------------------------------------------------
 -- Constants and variables
 --------------------------------------------------------------------------------
-local uix = require 'gamesense/uix'
 local assert, bit_band, client_delay_call, client_error_log, client_userid_to_entindex, entity_get_local_player, entity_get_player_weapon, entity_get_prop, entity_is_alive, ipairs, string_format, ui_get, ui_name, ui_new_checkbox, ui_new_combobox, ui_new_label, ui_reference, ui_set, ui_set_callback, ui_set_visible, unpack = assert, bit.band, client.delay_call, client.error_log, client.userid_to_entindex, entity.get_local_player, entity.get_player_weapon, entity.get_prop, entity.is_alive, ipairs, string.format, ui.get, ui.name, ui.new_checkbox, ui.new_combobox, ui.new_label, ui.reference, ui.set, ui.set_callback, ui.set_visible, unpack
 
 
