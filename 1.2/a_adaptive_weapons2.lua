@@ -222,7 +222,7 @@ local function init()
 
 	assert(config_idx_to_name[IDX_GLOBAL] == "Global")
 
-	enable_ref = uix.new_checkbox("RAGE", "Other", "Adaptive config")
+	enable_ref = uix.new_checkbox("RAGE", "Other", "Adaptive config2")
 	config_ref = ui_new_combobox("RAGE", "Other", "\nAdaptive config", config_idx_to_name)
 	label_ref = ui_new_label("RAGE", "Other", "Active weapon config: " .. ui_get(config_ref))
 
